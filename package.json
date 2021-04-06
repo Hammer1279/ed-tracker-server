@@ -1,0 +1,26 @@
+{
+  "name": "@hamertechnik/ed-tracker-server",
+  "version": "1.0.0",
+  "description": "The Server for Running the ED-Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hammer1279/ed-tracker-server.git"
+  },
+  "author": "Hammer1279",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Hammer1279/ed-tracker-server/issues"
+  },
+  "homepage": "https://github.com/Hammer1279/ed-tracker-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
